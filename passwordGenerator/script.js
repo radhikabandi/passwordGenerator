@@ -12,22 +12,22 @@ function generatePassword() {
   if (lengthOfPwd < 8 || lengthOfPwd > 128) {
     return ("please select length more than 8 or less than 128 characters")
   } else {
-    let lowChars = prompt("do you want lowerCase chars in your password, say yes/no");
+    let lowChars = prompt("do you want lowerCase chars in your password,yes/no");
 
     if (lowChars) {
       possibleChar = possibleChar.concat(lowercaseChar)
     }
-    let upperChars = prompt("do you want upper chars in your password, say yes/no");
+    let upperChars = prompt("do you want upper chars in your password,yes/no");
 
     if (upperChars) {
       possibleChar = possibleChar.concat(uppercaseChar)
     }
-    let numericalChar = prompt("do you want numericals in your password, say yes/no");
+    let numericalChar = prompt("do you want numericals in your password,yes/no");
     if (numericalChar) {
       possibleChar = possibleChar.concat(numericChar)
     }
 
-    let specialChars = prompt("do you want specialChars in your password, say yes/no");
+    let specialChars = prompt("do you want specialChars in your password,yes/no");
     if (specialChars) {
       possibleChar = possibleChar.concat(specialChar)
     }
