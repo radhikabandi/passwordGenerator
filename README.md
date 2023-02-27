@@ -21,4 +21,4 @@ https://radhikabandi.github.io/passwordGenerator/
 
 screenShots-
 
-![](passwordGenerator/images/passwordGenerator.png)
+![](passwordGenerator/images/passwordGenerator.png)![](passwordGenerator/images/prompt.png)
