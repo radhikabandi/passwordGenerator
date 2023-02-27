@@ -18,3 +18,7 @@ Generate a random password by clicking the "Generate Password" button and follow
 
 Url:
 https://radhikabandi.github.io/passwordGenerator/
+
+screenShots-
+
+![](passwordGenerator/images/passwordGenerator.png)
